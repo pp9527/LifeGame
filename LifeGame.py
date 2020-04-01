@@ -15,19 +15,6 @@ def init_map(rows, cols):
     return initial_map
 
 
-# def print_map(every_map):
-#     """打印地图"""
-#     for i in range(0, len(every_map)):
-#         for j in range(0, len(every_map[0])):
-#             if every_map[i][j] == 0:
-#                 """0表示死细胞 打印□"""
-#                 print('□', end="")
-#                 """1表示活细胞 打印■"""
-#             else:
-#                 print('■', end="")
-#         print("")
-
-
 def cell_laws(mov_map):
     #入口参数为一个二维列表，根据生命法则推演出下一张地图并返回
     live_cell_num = 0
