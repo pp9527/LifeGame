@@ -101,3 +101,8 @@ game_map = init_map(map_rows, map_cols)
 while 1:
     game_map = cell_laws(game_map)
     out_map(game_map)
+    for event in pygame.event.get():
+        # 监视鼠标
+        if event.type == pygame.QUIT:
+            pygame.quit()
+            sys.exit()
