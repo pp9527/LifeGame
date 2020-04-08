@@ -1,5 +1,5 @@
 @echo off
-set "VIRTUAL_ENV=E:\workspace\PyCharm_workspace\lifegame\venv"
+set "VIRTUAL_ENV=E:\workspace\PyCharm_workspace\Life_Game\venv"
 
 if not defined PROMPT (
     set "PROMPT=$P$G"
