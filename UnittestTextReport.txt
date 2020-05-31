@@ -1,0 +1,19 @@
+test_check1 (test_check.TestCheck)
+test check method ... ok
+test_check2 (test_check.TestCheck)
+test check method ... ok
+test_check3 (test_check.TestCheck)
+test check method ... ok
+test_init_map1 (test_init.TestInit)
+test init_map method ... ok
+test_init_map2 (test_init.TestInit)
+test init_map method ... ok
+test_init_map3 (test_init.TestInit)
+test init_map method ... ok
+test_cell_laws (test_new_map.TestNewMap)
+test cell_laws method ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.001s
+
+OK

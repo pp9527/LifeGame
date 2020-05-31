@@ -1,7 +1,6 @@
 """
 check
 """
-import sys
 
 
 def check_int(date):
@@ -12,11 +11,9 @@ def check_int(date):
     try:
         int(date)
     except ValueError:
-        print('error')
-        sys.exit(0)
+        return -1
     date = int(date)
     if date < 1:
-        print('error')
-        sys.exit(0)
+        return -1
     else:
         return date

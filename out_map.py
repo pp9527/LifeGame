@@ -23,6 +23,6 @@ def out_map(every_map):
             else:
                 pygame.draw.rect(screen, [255, 255, 255], [j * 6, i * 6, 5, 5], 0)
     pygame.display.flip()
-    pygame.time.delay(15)
+    pygame.time.delay(5)
     # 程序延迟一段时间
     return 1
