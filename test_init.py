@@ -26,8 +26,8 @@ class TestInit(unittest.TestCase):
 
     def test_init_map3(self):
         """test init_map method"""
-        if init_map(0, 0) == -1:
-            sign = init_map(0, 0)
+        if init_map(-1, -1) == -1:
+            sign = init_map(-1, -1)
         else:
             sign = 1
         self.assertEqual(-1, sign)
